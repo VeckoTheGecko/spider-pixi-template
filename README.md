@@ -55,7 +55,7 @@ The `hello` task runs a Python script that writes `output/hello.txt` in your cur
 2. Run:
 
 ```bash
-apptainer run spider-pixi-template.sif hello
+apptainer run --mount type=bind,src=./output,dst=/output spider-pixi-template.sif hello
 ```
 
 Output is written to `output/hello.txt` relative to where you invoked the command, which lives on Spider's persistent storage (outside the read-only container).
