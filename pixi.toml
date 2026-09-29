@@ -13,3 +13,4 @@ hello = "python $INIT_CWD/hello.py"
 
 [tool.pixitainer]
 output = "spider-pixi-template.sif"
+add-file = ["hello.py:/opt/conf/hello.py"]
