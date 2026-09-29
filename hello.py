@@ -10,7 +10,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-output_dir = Path(os.environ.get("INIT_CWD", ".")) / "output"
+output_dir = Path("output") # volume mount
 output_dir.mkdir(parents=True, exist_ok=True)
 
 output_file = output_dir / "hello.txt"
