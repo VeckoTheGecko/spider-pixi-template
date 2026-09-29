@@ -73,5 +73,6 @@ spider-pixi-template/
 
 - Add dependencies: `pixi add numpy pandas` (etc.)
 - Add tasks: define new entries under `[tasks]` in `pixi.toml`
+- Ensure that the `pixi.toml` `platforms` key is correct
 - Modify `pixitainer` config in `[tool.pixitainer]` within `pixi.toml`
 - Write output to `$INIT_CWD` (or a subdirectory) so results land on the host filesystem rather than inside the read-only container
