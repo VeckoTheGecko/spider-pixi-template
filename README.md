@@ -41,6 +41,8 @@ pixi containerize
 
 This produces `spider-pixi-template.sif`.
 
+If you have any difficulties here, please check the Pixitainer docs (for additional config about running on Ubuntu etc.).
+
 ### Run locally (if Apptainer is available)
 
 ```bash
